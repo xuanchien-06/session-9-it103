@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container{
     border: 2px solid black;
     display: flex;
@@ -13,7 +14,8 @@
     margin: 50px;
     width: 60%;
 }
-.container .child{
+
+.container .style{
     border-radius: 5px;
     background-color: #800080;
     color: #fcdedb;
