@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; 
+    justify-content: space-between;
+    gap: 10px;
+    margin: 50px;
+    width: 60%;
+}
+.container .child{
+    border-radius: 5px;
+    background-color: #800080;
+    color: #fcdedb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+}
