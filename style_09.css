@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.service-container .container:nth-of-type(1) .col{
+    background-color: brown;
+}
+
+.service-container .container:nth-of-type(1) .col .post-container{
+    background-color: brown;
+    height: 400px;
+}
+
+.service-container .row{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.service-container .row .col{
+    background-color: brown;
+    width: 33.33%;
+}
+
+.service-container .container{
+    margin: 20px;
+}
+
+.post-container {
+    /* thiết lập hình ảnh là nền của 1 cái gì đó  */
+    background-image: url(https://yt3.googleusercontent.com/RyoE2hj7T9sawLWG47KaefhjslrUIlh_92UoNcqrC6dFbEbRSlsIpFGhwEpAdakq4i4z8zH_=s900-c-k-c0x00ffffff-no-rj) ;
+    /* Chiều cao */
+    height: 300px;
+    /* Tự động thu nhỏ cách hợp lí */
+    background-size: cover;
+    /* giữa theo dọc và ngang */
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.post-container .title{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
